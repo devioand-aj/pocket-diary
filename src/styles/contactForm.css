@@ -1,0 +1,25 @@
+.formm {
+  background-color: #2f3335;
+  color: #fff;
+  margin: 10px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 10px;
+  width: 23rem;
+  /* width: 320px; */
+  /* width: 200px; */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-items: center;
+  align-items: center;
+  padding: 30px 40px 40px 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .formm {
+    background-color: #add8e6;
+    width: 22rem;
+    margin-right: auto;
+  }
+}

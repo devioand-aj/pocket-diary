@@ -1,0 +1,147 @@
+.card-container {
+  /* background-color: #eee; */
+  /* width: 40%; */
+  /* height: 200px; */
+  /* margin: 100px 300px; */
+}
+
+.contact-card {
+  /* background-color: darkgrey; */
+  background-color: #1762a7;
+  width: 25rem;
+  /* height: 200px; */
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: #fff;
+  border-radius: 5px;
+  margin: 10px 0;
+  /* position: absolute; */
+  top: 5%;
+}
+
+.contact-card .card-header {
+  /* background-color: dodgerblue; */
+  border-bottom: 1px solid grey;
+  /* height: 20px; */
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.contact-card .card-holder-detail {
+  /* background-color: pink; */
+  display: flex;
+  gap: 10px;
+  flex: 3;
+}
+
+.contact-card .card-action-buttons {
+  /* background-color: lightgrey; */
+  height: 23px;
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  cursor: pointer;
+}
+
+.contact-card .card-phone {
+  /* height: 35px; */
+  /* background-color: pink; */
+  width: 100%;
+  font-size: 35px;
+  letter-spacing: 2px;
+  display: flex;
+}
+
+.contact-card .card-email {
+  /* background-color: rgba(165, 46, 165, 0.835); */
+  /* height: 20px; */
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.contact-card .card-type {
+  /* background-color: saddlebrown; */
+  /* height: 20px; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-card .card-user-date {
+  background-color: #2f3335;
+  width: max-content;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.contact-card .card-user-date {
+  /* background-color: #cf1b1b; */
+  width: max-content;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.contact-card .card-user-date-danger {
+  background-color: #cf1b1b;
+}
+
+.contact-card .card-user-date-dark {
+  background-color: #2f3335;
+}
+
+.contact-card .body-icon {
+  /* background-color: red; */
+  display: flex;
+  align-self: center;
+  color: #eee;
+}
+
+.contact-card .icon-mobile {
+  /* background-color: dodgerblue; */
+  width: max-content;
+  margin-left: -7px;
+}
+
+.contact-card .paper {
+  font-size: 16px;
+  font-weight: 800;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.contact-card .paper-small {
+  padding: 1px 3px;
+}
+
+.contact-card .paper-grey {
+  background-color: grey;
+}
+
+.contact-card .paper-danger {
+  background-color: #cf1b1b;
+  color: white;
+}
+
+.contact-card .paper-light {
+  background-color: lightgrey;
+  color: black;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-card {
+    width: 22rem;
+  }
+}

@@ -1,0 +1,13 @@
+.radio-input-field-container {
+  /* background-color: brown; */
+  display: flex;
+  gap: 20px;
+}
+
+.radio-input-field {
+  /* background-color: pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}

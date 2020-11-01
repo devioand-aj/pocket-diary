@@ -1,0 +1,8 @@
+.error-message {
+  /* background-color: hotpink; */
+  font-size: 16px;
+  font-weight: lighter;
+  align-self: start;
+  margin: -5px 0 0 5px;
+  color: #f53756;
+}
