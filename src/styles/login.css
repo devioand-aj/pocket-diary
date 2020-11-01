@@ -27,7 +27,7 @@
   /* align-items: center; */
 }
 
-.form {
+.formLogin {
   background-color: #2f3335;
   color: #fff;
   margin: 10px;
@@ -37,10 +37,14 @@
   width: 400px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  /* gap: 15px; */ /* it is not working in mobile browsers so its alternate is in line 56 */
   justify-items: center;
   align-items: center;
   padding: 30px 40px 40px 40px;
+}
+
+.formLogin > * {
+  margin: 5px; /* alternate of gap flexbox */
 }
 
 .form-label {

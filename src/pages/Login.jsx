@@ -37,7 +37,7 @@ const Login = ({ history }) => {
         <h1>Contact Keeper</h1>
       </div>
       <div className='login-body'>
-        <div className='form'>
+        <div className='formLogin'>
           <h1 className='form-label'>Login</h1>
           <Toast message={toast} visible={isToast} onClick={onRemoveToast} />
           <Spinner Item={spinner} visible={loading} />
