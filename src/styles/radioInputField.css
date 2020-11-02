@@ -1,7 +1,10 @@
 .radio-input-field-container {
   /* background-color: brown; */
   display: flex;
-  gap: 20px;
+  /* gap: 20px; */
+}
+.radio-input-field-container > * {
+  margin: 0 8px;
 }
 
 .radio-input-field {
@@ -9,5 +12,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4px;
+  /* gap: 4px; */
+}
+.radio-input-field > *:not(:first-child) {
+  margin: 0 3px;
 }

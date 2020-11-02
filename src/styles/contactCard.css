@@ -13,12 +13,15 @@
   padding: 22px;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  /* gap: 6px; */
   color: #fff;
   border-radius: 5px;
   margin: 10px 0;
   /* position: absolute; */
   top: 5%;
+}
+.contact-card > * {
+  margin: 4px 0;
 }
 
 .contact-card .card-header {
@@ -27,14 +30,17 @@
   /* height: 20px; */
   width: 100%;
   display: flex;
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .contact-card .card-holder-detail {
   /* background-color: pink; */
   display: flex;
-  gap: 10px;
+  /* gap: 10px; */
   flex: 3;
+}
+.contact-card .card-holder-detail > *:not(:first-child) {
+  margin: 0 5px;
 }
 
 .contact-card .card-action-buttons {
@@ -44,8 +50,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 13px;
+  /* gap: 13px; */
   cursor: pointer;
+}
+.contact-card .card-action-buttons > * {
+  margin: 0 8px;
 }
 
 .contact-card .card-phone {
@@ -62,7 +71,11 @@
   /* height: 20px; */
   width: 100%;
   display: flex;
-  gap: 10px;
+  /* gap: 10px; */
+}
+
+.contact-card .card-email > *:not(:first-child) {
+  margin: 0 5px;
 }
 
 .contact-card .card-type {
@@ -71,7 +84,10 @@
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 10px;
+  /* gap: 10px; */
+}
+.contact-card .card-type > *:not(:first-child) {
+  margin: 0 7px;
 }
 
 .contact-card .card-user-date {

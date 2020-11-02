@@ -17,7 +17,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  /* gap: 5px; */
+}
+
+.toast-icon-label-container > * {
+  margin: 2px;
 }
 
 .toast-icon {
